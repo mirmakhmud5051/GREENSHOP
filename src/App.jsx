@@ -1,10 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+
 function App() {
-  return <div className=" "></div>;
   return (
-    <div  >
-      
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App;
