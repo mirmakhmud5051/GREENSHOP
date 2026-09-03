@@ -1,4 +1,4 @@
-]
+
 
 const Shop = () => {
   return (
