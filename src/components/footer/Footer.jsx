@@ -1,5 +1,5 @@
 
-function heroHome() {
+function Footer() {
   return (
     <div>
       
@@ -7,4 +7,4 @@ function heroHome() {
   )
 }
 
-export default heroHome
+export default Footer
