@@ -12,11 +12,11 @@ function Header() {
         <ul className=" flex items-center gap-[50px] ">
           <Link
             className=" font-bold text-[16px]  text-[rgba(61,61,61,1)] border-b border-b-2 border-[rgba(70,163,88,1)]"
-            to="/home"
+          to={"/"}
           >
             Home
           </Link>
-          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " >
+          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " to={"shop"}>
             Shop
           </Link>
           <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " >
