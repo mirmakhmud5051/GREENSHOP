@@ -1,22 +1,23 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Cart from "./pages/cart/Cart";
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import HomeHero from './components/homeHero/HomeHero';
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import HomeHero from "./components/homeHero/HomeHero";
+import Checkout from './pages/checkout/Checkout';
 
 function App() {
   return (
-    <div className=' container flex flex-col  items-center py-[25px]'>
-      <Header/>
+    <div className=" container flex flex-col  items-center py-[25px]">
+      <Header />
       {/* <Home/> */}
-      
+
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
-      <Route path='/checkout' element={<Checkout/>}/>
+        <Route path="/checkout" element={<Checkout/>} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
