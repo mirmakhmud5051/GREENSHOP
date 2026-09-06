@@ -25,6 +25,7 @@ function Header() {
           <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] ">
             Blogs
           </Link>
+          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " to={"/checkout"}>Checkout</Link>
         </ul>
       </nav>
       <div className=" flex items-center gap-[20px] ">
