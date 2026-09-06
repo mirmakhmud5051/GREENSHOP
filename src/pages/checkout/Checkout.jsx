@@ -14,6 +14,7 @@ function Checkout() {
       </div>
     </section>
   </div>
+>>>>>>>>> Temporary merge branch 2
 }
 
 export default Checkout;
