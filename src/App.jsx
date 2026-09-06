@@ -8,7 +8,7 @@ function App() {
   return (
     <div className=' container flex flex-col  items-center py-[25px]'>
       <Header/>
-      <Home/>
+      {/* <Home/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
