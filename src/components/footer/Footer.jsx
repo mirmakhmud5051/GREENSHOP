@@ -46,7 +46,7 @@ function Footer() {
           </h3>
           <div className=" flex items-center  bg-[rgba(255,255,255,1)] rounded-2xl w-[354px] h-[40px] ">
             <input
-              className=" w-[300px] :placeholder = text-[rgba(172,172,172,1)] "
+              className=" w-[300px] placeholder:text-[rgba(172,172,172,1)] "
               type="email"
               placeholder=" Enter your email address...  "
             />{" "}
@@ -72,7 +72,6 @@ function Footer() {
         </div>
         <div className=" flex items-center gap-[10px] ">
           <CiMail className=" text-[rgba(70,163,88,1)] " />
-
           <h3>contact@greenshop.com</h3>
         </div>
         <div className=" flex items-center gap-[10px] ">
@@ -122,7 +121,6 @@ function Footer() {
           <img src={icons} alt="" />
         </ul>
       </div>
-      
     </div>
   );
 }
