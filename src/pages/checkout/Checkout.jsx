@@ -145,6 +145,8 @@ function Checkout() {
       </div>
     </div>
   );
+    </section>
+  </div>
 }
 
 export default Checkout;
