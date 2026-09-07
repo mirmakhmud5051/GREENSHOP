@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className=" w-[1200px] h-[53px] flex items-center justify-between ">
+    <div className="w-[1200px] h-[53px] flex items-center justify-between ">
       <div>
         <img src={logo} alt="" />
       </div>
@@ -16,7 +16,7 @@ function Header() {
           >
             Home
           </Link>
-          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " to={"shop"}>
+          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " to={"/shop"}>
             Shop
           </Link>
           <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " >
