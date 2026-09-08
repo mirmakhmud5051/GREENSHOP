@@ -22,8 +22,8 @@ function Header() {
           >
             Shop
           </Link>
-          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] ">
-            Plant Care
+          <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] " to={"/Address"}>
+            Address
           </Link>
           <Link className=" font-normal text-[rgba(61,61,61,1)] text-[16px] ">
             Blogs
