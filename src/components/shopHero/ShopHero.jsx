@@ -71,12 +71,12 @@ const ShopHero = () => {
               +
             </button>
             <div className="flex gap-[10px]">
-              <Link to={"/cart"}>
+              <Link >
                 <button className="w-[130px] h-[40px] bg-[#46A358] text-[#FFFFFF] rounded-[6px]">
                   Buy Now
                 </button>
               </Link>
-              <Link>
+              <Link to={"/cart"}>
                 <button className="w-[130px] h-[40px] border-2 border-[#46A358] text-[#46A358] rounded-[6px]">
                   Add to cart
                 </button>
