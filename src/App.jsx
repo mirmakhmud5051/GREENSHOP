@@ -1,10 +1,11 @@
+import Modal from "./components/modal/Modal";
+
 function App() {
-  return <div className=" "></div>;
   return (
-    <div  >
-      
+    <div>
+      <Modal />
     </div>
-  )
+  );
 }
 
 export default App;
