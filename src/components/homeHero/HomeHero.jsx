@@ -40,9 +40,11 @@ const HomeHero = () => {
             trendy plants. Use <br /> our plants to create an unique Urban
             Jungle. Order your favorite plants!
           </p>
-          <button className="w-[140px] h-[40px] rounded-[6px] mt-[44px] bg-[#46A358] font-bold text-[16px] leading-[20px] text-[#FFFFFF] mulish">
-            SHOP NOW
-          </button>
+          <Link to={"/shop"}>
+            <button className="w-[140px] h-[40px] rounded-[6px] mt-[44px] bg-[#46A358] font-bold text-[16px] leading-[20px] text-[#FFFFFF] mulish">
+              SHOP NOW
+            </button>
+          </Link>
         </div>
         <div className="home-right flex items-end ">
           <img src={home} alt="" />
