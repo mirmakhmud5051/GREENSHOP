@@ -2,7 +2,7 @@ import { CiLogin, CiSearch, CiShoppingCart } from "react-icons/ci";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ onLoginClick }) {
   return (
     <div className="w-[1200px] h-[53px] flex items-center justify-between ">
       <div>
@@ -42,7 +42,10 @@ function Header() {
           
           <CiShoppingCart className=" w-[24px] h-[24px] text-[rgba(61,61,61,1)] " />
         </Link>
-        <button className=" w-[100px] h-[35px] bg-[rgba(70,163,88,1)] flex items-center justify-center rounded-[6px] text-white  gap-[5px] outline-0  ">
+        <button 
+          onClick={onLoginClick}
+          className=" w-[100px] h-[35px] bg-[rgba(70,163,88,1)] flex items-center justify-center rounded-[6px] text-white  gap-[5px] outline-0  "
+        >
           <CiLogin /> Login
         </button>
       </div>

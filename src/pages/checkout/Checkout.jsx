@@ -1,7 +1,7 @@
 import nimadur from "../../assets/nimadur.png";
 import payme from "../../assets/image 17.png";
 
-function Checkout() {
+function Checkout({ onPlaceOrder }) {
   return (
     <div>
       <div className="flex justify-between pr-[1020px] my-[36px] ">
@@ -233,7 +233,10 @@ function Checkout() {
                 Cash on delivery
               </h3>
             </div>
-            <button className="p-[12px_160px] bg-[#46A358] rounded-[3px] text-[#FFFFFF] font-bold text-[15px]">
+            <button
+              onClick={onPlaceOrder}
+              className="p-[12px_160px] bg-[#46A358] rounded-[3px] text-[#FFFFFF] font-bold text-[15px]"
+            >
               Place Order
             </button>
           </div>
