@@ -17,7 +17,7 @@ import homeicon1 from "../../assets/home-icon1.png";
 import homeicon2 from "../../assets/home-icon2.png";
 import right from "../../assets/right.png";
 import down from "../../assets/down.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
