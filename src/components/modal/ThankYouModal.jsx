@@ -3,18 +3,21 @@ import plant1 from "../../assets/plant1.png";
 import plant2 from "../../assets/plant2.png";
 import plant3 from "../../assets/plant3.png";
 import thankEnvelope from "../../assets/thank_envelope.png";
+import { Link } from "react-router-dom";
 
 function ThankYouModal({ onClose }) {
   return (
     <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-[9999] p-4">
       <div className="bg-[#FFFFFF] p-[28px_30px_20px] rounded-[6px] text-center shadow-xl relative w-[550px] max-w-[95%] border-b-[10px] border-[#46A358]">
-        <button
-          onClick={onClose}
-          className="absolute top-[15px] right-[20px] bg-none border-none text-[22px] cursor-pointer text-[#46A358] font-light"
-        >
-          ✕
-        </button>
-
+       
+         
+          <button
+            onClick={onClose}
+            className="absolute top-[15px] right-[20px] bg-none border-none text-[22px] cursor-pointer text-[#46A358] font-light"
+          >
+            ✕
+          </button>
+       
         <div className="flex flex-col items-center mb-[18px]">
           <div className="w-[74px] h-[74px] flex items-center justify-center mb-[8px]">
             <img
